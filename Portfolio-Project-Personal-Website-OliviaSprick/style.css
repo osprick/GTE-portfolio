@@ -1,0 +1,122 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  background-image: linear-gradient(gray,black);
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/NellCentered.jpg);
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+  border: 9px solid #5B04FF;
+  margin-top: 100px;
+ text-shadow: 3px 3px 6px rgb(248, 245, 252); 
+}
+
+h1 {
+  color: #F7DC75;
+  padding-bottom: 5vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgb(115, 115, 111);
+}
+
+h3 {
+  color: #F7DC75;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgb(0, 0, 7);
+  padding-bottom: 5vh;
+}
+
+#missionImage img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+p {
+  color: #F6F3FC;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+section {
+  padding: 60px;
+}
+
+.carousel slide {
+  width: 60%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  width: 60%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding: 20px;
+}
+
+h5 {
+  color: #F7DC75;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgb(0, 0, 7);
+}
+
+.carousel-caption {
+  z-index: 1;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px rgb(0, 0, 7);
+  background: rgba(0,0,0,0.6);
+  width: 60%;
+  margin: auto;
+}
+
+#icons {
+  font-size: 50px;
+  color: #5B04FF;
+}
+
+#icons div i:hover {
+  color: green;
+}
+
+.iconsImage img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#footer-section {
+  padding-block: 30px;
+  color: #F7DC75;
+  text-align: center;
+  background: black;
+}

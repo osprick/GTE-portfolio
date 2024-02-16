@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>Olivia Sprick</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="home" class="navbar-brand">
+          <i class="bi bi-house-door-fill"></i>
+        </a>
+        <button class="navbar-toggler" 
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-collapse">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        <div id="nav-collapse" class="collapse navbar-collapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#mission-section" class="nav-link">Mission</a>
+            <a href="#skills-section" class="nav-link">Skills</a>
+            <a href="#contact-section" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+  	<section id="hero-section" class="hero text-center parallax">
+      <div class="avarateBorder">
+        <img src="img/ProfPic.jpg" class="avatar text-center mx-auto img-responsive">
+      </div>
+      <h1 class="text-center">Olivia Sprick</h1>
+      <h3>Let's get back to life skills</h3>
+  	</section>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section" class="container-fluid container-lg mt-4">
+      <h1 class="text-center" alt="rocketship">Mission</h1>
+      <div class="row">
+        <div id="missionImage" class="col-md-6 mb4">
+          <img src="img/books-1655783_1280.jpg">
+        </div>
+        <div class="col-md-6">
+          <p>My mission is to bring education in life skills to anyone who needs them. The internet may jokingly call it "Adulting 101" but I do so seriously because so many people have a dearth of essential knowledge to survive in today's society. This includes managing personal finances, basic cooking skills, how to write a resume, effective job hunting, how to find a doctor, managing physical and mental health, and so much more. While much of this information can be found through internet serachs and much digging, I aim to build an online school that will be a central source of useful information in practical life skills. I believe knowledge opens doors to opportunity. My mission is to help people achieve self-actualization in life by giving them the effective tools and knowledge to do so.</p>
+        </div>
+      </div>
+  	</section>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/spct1.jpg" class="d-block" alt="A fabulous coat">
+          <div class="carousel-caption d-md-block">
+            <h5>Sewing</h5>
+            <p>It's a useful skill not only to repair your clothes, but make or custom fit them so you look amazing!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/PXL_20210130_040639299.MP.jpg" class="d-block" alt="Black bean soup">
+          <div class="carousel-caption d-md-block">
+            <h5>Cooking</h5>
+            <p>Food is a basic nessecity for survival, yet so many don't know how to cook even 3 basic meals!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/us_u_azs.gif" class="d-block" alt="ASU">
+          <div class="carousel-caption d-md-block">
+            <h5>College</h5>
+            <p>It is possible without putting yourself in severe debt!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <!-- Skills section -->
+    <section id="skills-section" class="container-fluid container-lg mt-4">
+      <h1 class="text-center">Skills</h1>
+      <div class="row">
+        <div class="iconsImage col-md-6 col-lg-3 text-center">
+          <img src="img/icone-html-bleue.png">
+          <p>Building and reading HTML code to create web content</p>
+        </div>
+        <div class="iconsImage col-md-6 col-lg-3 text-center">
+          <img src="img/121-css3-512.webp">
+          <p>Using CSS to build web designs</p>
+        </div>
+        <div class="iconsImage col-md-6 col-lg-3 text-center">
+          <img src="img/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67.png">
+          <p>Using popular frameworks to quickly create responsive websites</p>
+        </div>
+        <div class="iconsImage col-md-6 col-lg-3 text-center">
+          <img src="img/tableau-icon.svg">
+          <p>Utilizing Tableau to create comprehensive data analysis</p>
+        </div>
+      </div>
+  	</section>
+    
+    <!-- Contact Section -->
+    <section id="contact-section" class="container-fluid container-lg mt-4">
+      <h1 class="text-center">Contact</h1>
+      <div id="icons" class="row">
+        <div class="col-md-4 text-center animate__animated animate__swing animate__delay-40s">
+          <i class="bi bi-envelope-at-fill"></i>
+        </div>
+        <div class="col-md-4 text-center animate__animated animate__swing animate__delay-40s">
+          <i class="bi bi-linkedin"></i>
+        </div>
+        <div class="col-md-4 text-center animate__animated animate__swing animate__delay-40s">
+          <a href="https://www.facebook.com/fabulousfantasyfabrications/" target="_Artist'sPage"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+    </section>
+
+ <!-- Carousel -->
+    
+    <!-- Footer section -->
+    <section id="footer-section">
+      <footer>
+        <span>©Olivia Sprick 2023</span>
+      </footer>
+    </section>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+  		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  	-->
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+  </body>
+</html>
